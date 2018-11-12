@@ -2,7 +2,7 @@
 
 An HTML page displays a collection of div elements, each containing a letter that corresponds with a key on the keyboard, and the name of the soundclip to be played when that button is clicked. When a user presses a key that matches one of the letters displayed in the div elements, the page should play the corresponding soundclip and place a temporary 'highlight' (or border) around the div. Write the JavaScript code necessary to add this functionality.
 
-![js_drumkit](js_drumkit.png)
+![](media/js_drumkit.png)
 
 #  Guide
 We are provided with the HTML, CSS, and sound clips necessary to create this page/application. Let's go over the provided files and look at the pieces that we can utilize to fulfill the requirements:
@@ -33,10 +33,10 @@ The function should only be concerned with the transform property, as this prope
 If there is an event with a property name transform, target the function context (the HTML element to which the event listener was attached) and remove the playing class.
 
 # Acknowledgments 
-** Nitish Dayal
-** Wes Bos
+* Nitish Dayal
+* Wes Bos
 
 # Built With
- ** Javascript
- ** HTML
- ** CSS 
+ * Javascript
+ * HTML
+ * CSS 
